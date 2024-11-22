@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+body{
+    background-color: #f6d5ac;
+}
+
+.box-1{
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 5px;
+}
+
+#second-p {
+    color: darkgreen;
+}
+
+h1{
+    color: brown;
+}
+
+.box-1 h3{
+    background-color: aquamarine;
+    color: darkblue;
+    padding: 1%;
+    font-family: "Edu AU VIC WA NT Pre", Helvetica, sans-serif;
+}
+
+p{
+    color: rgb(191, 40, 35);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+
+#box-model{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#box-model-img{
+    background-color: rgb(165, 147, 147);
+    width: 600px;
+    border: 15px solid rgb(14, 68, 14);
+    padding: 50px;
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+    font-weight: bolder;
+}
+
+.my-form .inputs{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+}
+
+.button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
